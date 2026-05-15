@@ -1,0 +1,7 @@
+matching_level,work_category,count,mean_salary,ci95,median_salary
+Experience + location + company size,On-site,118065,160288.89809850507,429.72823351060913,148000.0
+Experience + location + company size,Remote,30961,152616.69051387228,747.6144289041392,146000.0
+Experience + location + company size + work year,On-site,117163,160906.98829835356,430.3004189156793,149000.0
+Experience + location + company size + work year,Remote,30706,153272.860548427,747.4563747553808,147000.0
+Experience + location + company size + job title,On-site,110599,162788.44828615087,440.1632782289885,150000.0
+Experience + location + company size + job title,Remote,30156,153988.74184241943,751.3825041893284,147900.0
