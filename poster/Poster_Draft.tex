@@ -131,18 +131,7 @@
   \begin{block}{Result 1: Salary Distributions}
     \begin{figure}
       \centering
-      \begin{tikzpicture}
-        \node[anchor=south west, inner sep=0] (salaryplot) at (0,0)
-          {\includegraphics[width=\linewidth,height=0.265\paperheight,keepaspectratio]{salary_distribution_with_means.png}};
-        \begin{scope}[x={(salaryplot.south east)}, y={(salaryplot.north west)}]
-          \node[fill=white, fill opacity=0.78, text opacity=1, align=center, font=\scriptsize, inner sep=1.1pt, minimum width=3.2cm, minimum height=1.0cm]
-            at (0.22,0.59) {Mean \$159,716\\N=118,972};
-          \node[fill=white, fill opacity=0.78, text opacity=1, align=center, font=\scriptsize, inner sep=1.1pt, minimum width=3.0cm, minimum height=1.0cm]
-            at (0.50,0.43) {Mean \$82,814\\N=313};
-          \node[fill=white, fill opacity=0.78, text opacity=1, align=center, font=\scriptsize, inner sep=1.1pt, minimum width=3.2cm, minimum height=1.0cm]
-            at (0.82,0.58) {Mean \$151,887\\N=31,256};
-        \end{scope}
-      \end{tikzpicture}
+      \includegraphics[width=\linewidth,height=0.265\paperheight,keepaspectratio]{salary_distribution_with_means.png}
     \end{figure}
 
     \textbf{Finding:} Remote and on-site jobs both occupy the high-salary portion of the market, but remote jobs do not clearly exceed on-site jobs in the raw comparison. Hybrid jobs are a small and lower-paid group in this dataset.
@@ -215,13 +204,21 @@
     \end{itemize}
   \end{block}
 
-  \begin{block}{Code and References}
+  \begin{block}{Code and Data}
     \footnotesize
-    \textbf{Code and data:}
     \href{https://github.com/qinghaoz-cell/macs30200}{github.com/qinghaoz-cell/macs30200}
+  \end{block}
 
-    \smallskip
-    \textbf{Selected references:} Aksoy et al. (2022); Cetrulo et al. (2022); Dingel and Neiman (2020); Hansen et al. (2023); Lee (2023); Pabilonia and Vernon (2024).
+  \begin{block}{References}
+    \scriptsize
+    \begin{itemize}
+      \item Aksoy, C. G., Barrero, J. M., Bloom, N., Davis, S. J., Dolls, M., \& Zarate, P. (2022). Working from home around the world. \textit{Brookings Papers on Economic Activity}, \textit{Fall 2022}, 281--360.
+      \item Cetrulo, A., Guarascio, D., \& Virgillito, M. E. (2022). Working from home and the explosion of enduring divides: Income, employment and safety risks. \textit{Structural Change and Economic Dynamics}, \textit{60}, 244--258.
+      \item Dingel, J. I., \& Neiman, B. (2020). How many jobs can be done at home? \textit{Journal of Public Economics}, \textit{189}, 104235.
+      \item Hansen, S., Lambert, P. J., Bloom, N., Davis, S. J., Sadun, R., \& Taska, B. (2023). \textit{Remote work across jobs, companies, and space}. IZA Discussion Paper No. 16420.
+      \item Lee, K. (2023). Working from home as an economic and social change: A review. \textit{Labour Economics}, \textit{85}, 102462.
+      \item Pabilonia, S. W., \& Vernon, V. (2024). Remote work, wages, and hours worked in the United States. \textit{Monthly Labor Review}.
+    \end{itemize}
   \end{block}
 
 \end{column}
